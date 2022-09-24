@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Todo APP</h1>
+    <!-- Input field for create Task  -->
+    <div class="inputs">
+        <input type="text" placeholder="Task" id="taskText">
+        <button onclick="addTask()">Add Task</button>
+    </div>
+    
+    <!-- Show All tasks  -->
+    <div class="tasks">
+        <div class="createdtaskbox">
+            <h1>Created Task</h1>
+            <div id="created"></div>
+        </div>
+        <div class="createdtaskbox">
+            <h1>Completed Task</h1>
+            <div id="completed"></div>
+        </div>
+    </div>
+</body>
+
+
+<script src="index.js"></script>
+
+</html>
